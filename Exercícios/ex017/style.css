@@ -1,0 +1,26 @@
+@charset "UTF-8";
+
+body {
+    background-image:linear-gradient(to right, white, black)
+}
+
+main {
+    background-color: rgb(255, 255, 255);
+    border-radius: 5%;
+    box-shadow: 2px 2px 5px black;
+    padding: 40px;
+    margin: auto;
+    width: 800px;
+}
+
+h1 {
+    font: italic bold 2em 'Times New Roman', Times, serif;
+}
+
+h2 {
+    font: italic normal 1.5em 'Times New Roman', Times, serif;
+}
+
+p {
+    font: normal normal 1em Arial, Helvetica, sans-serif;
+}

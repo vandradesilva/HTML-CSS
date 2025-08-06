@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mídia</title>
+</head>
+<body>
+    <h1>Mídias</h1>
+    <hr>
+    <h2>Imagens dinâmicas</h2>
+    <p>Troque de aparelho ou redimensione o navegador para a imagem se flexionar.</p>
+    <picture>
+        <source media="(max-width: 750px)" srcset="imagens/arquivo_pequeno.png" type="image/png">
+        <source media="(max-width: 1050px)" srcset="imagens/arquivo_medio.png" type="image/png">
+        <img src="imagens/arquivo_grande.png" alt="arquivo_grande">
+    </picture>
+    <h2>Áudios</h2>
+    <p>Rode uma música abaixo</p>
+    <audio preload="metadata" controls>
+        <source src="midia/merry-go.mp3" type="audio/mpeg">
+        <source src="midia/merry-go.ogg" type="audio/ogg">
+        <source src="midia/merry-go.wav" type="audio/wav">
+        <p>Infelizmente, não foi possível rodar o áudio no seu navegador <a href="midia/merry-go.mp3" download="midia/merry-go.mp3" type="audio/mpeg">Clique aqui para fazer o download.</a></p>
+    </audio>
+    <p><a href="midia/merry-go.mp3" download="midia/merry-go.mp3" type="audio/mpeg">Clique</a></p>
+</body>
+</html>
